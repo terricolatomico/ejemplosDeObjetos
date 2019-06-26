@@ -10,13 +10,19 @@ from objetos1 import *
 objeto = Objeto( )
 print(Objeto.color)
 Objeto.tamanio = "pequenio"
-
 x = NuevoObjeto()
-
 print(x.pie.color)
-
 v = x.pie.amputar()
 print(v)
+
+
+
+
+
+
+
+
+
 
 
 
