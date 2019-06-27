@@ -11,8 +11,3 @@ class Factura(object):
         return(total + impuesto)
 
 
-compra1 = Factura(12, 110)
-print(compra1.unidad)
-print(compra1.precio)
-print(compra1.a_pagar(), "Euros")
-# print(compra1._Factura.__tasa) No se puedfe acceder a privados
