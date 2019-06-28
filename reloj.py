@@ -9,6 +9,7 @@ class Reloj(object):
 reloj = Reloj()
 x = reloj.dame_hora()
 
+
 hora = (int(input("Dime la hora: ")))
 minuto = (int(input("Dime los minutos: ")))
 seg = (int(input("Dime los segundos: ")))
